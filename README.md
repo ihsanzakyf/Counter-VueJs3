@@ -30,8 +30,8 @@ Langkah-langkah untuk menginstal proyek ini:
 Berikut langkah-langkah untuk menjalankan proyek ini:
 
 1. Jalankan Server.
-    bash
-    npm start
+    ```bash
+    npm run dev
     
 2. Buka di browser.
    ```bash
