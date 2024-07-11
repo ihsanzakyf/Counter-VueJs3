@@ -15,7 +15,7 @@ Langkah-langkah untuk menginstal proyek ini:
 
 1. Clone repositori ini.
    bash
-   git clone https://github.com/username/nama-proyek.git
+   git clone git@github.com:ihsanzakyf/VueJs-3.git
    
 2. Masuk ke direktori proyek.
    bash
