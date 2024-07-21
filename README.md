@@ -31,7 +31,7 @@ Berikut langkah-langkah untuk menjalankan proyek ini:
 
 1. Jalankan Server.
     ```bash
-    npm run dev
+    npm run devs
     
 2. Buka di browser.
    ```bash
