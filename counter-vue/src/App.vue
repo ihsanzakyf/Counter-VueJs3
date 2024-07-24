@@ -1,47 +1,64 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+  import { ref } from 'vue';
+
+  const count = ref(0);
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
   <main>
-    <TheWelcome />
+    <div>
+      <h1>Counter</h1>
+      <span id="value">{{ count }}</span>
+    </div>
+    <div>
+      <button @click="count--" id="decrease">-</button>
+      <button @click="count++" id="increase">+</button>
+    </div>
   </main>
 </template>
 
 <style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+  main {
+    text-align: center;
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
   }
 
-  .logo {
-    margin: 0 2rem 0 0;
+  #value {
+    font-size: 50px;
   }
 
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+  button {
+    font-size: 16px;
+    margin: 0 5px;
+    background-color: #555555;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
   }
-}
+
+  button:hover {
+    background-color: #777777;
+  }
+
+  button:active {
+    animation: pulse 0.5s linear;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.1);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
 </style>
