@@ -20,20 +20,21 @@ Langkah-langkah untuk menginstal proyek ini:
 2. Masuk ke direktori proyek.
    bash
    cd nama-proyek
-   
-3. Instal dependensi
-   bash
-   npm install
 
 ## Penggunaan
 
 Berikut langkah-langkah untuk menjalankan proyek ini:
 
-1. Jalankan Server.
+   
+1. Instal dependensi
+   ```bash
+   npm install
+
+2. Jalankan Server.
     ```bash
     npm run dev
     
-2. Buka di browser.
+3. Buka di browser.
    ```bash
    http://localhost:xxxx
 
