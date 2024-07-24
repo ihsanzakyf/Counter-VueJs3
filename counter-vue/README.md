@@ -1,29 +1,44 @@
-# counter-vue
+<img src="https://vuejs.org/images/logo.png" alt="Vue.js Logo" width="100" /> 
 
-This template should help get you started developing with Vue 3 in Vite.
+# Vue Js 3 
 
-## Recommended IDE Setup
+Pada repository ini, saya mempelajari tentang penggunaan Vue Js 3 untuk pembelajaran.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Daftar Isi
+1. [Instalasi](#instalasi)
+2. [Penggunaan](#penggunaan)
+3. [Kontribusi](#kontribusi)
 
-## Customize configuration
+## Instalasi
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Langkah-langkah untuk menginstal proyek ini:
 
-## Project Setup
+1. Clone repositori ini.
+   bash
+   git clone git@github.com:ihsanzakyf/VueJs-3.git
+   
+2. Masuk ke direktori proyek.
+   bash
+   cd nama-proyek
+   
+3. Instal dependensi
+   bash
+   npm install
 
-```sh
-npm install
-```
+## Penggunaan
 
-### Compile and Hot-Reload for Development
+Berikut langkah-langkah untuk menjalankan proyek ini:
 
-```sh
-npm run dev
-```
+1. Jalankan Server.
+    ```bash
+    npm run dev
+    
+2. Buka di browser.
+   ```bash
+   http://localhost:xxxx
 
-### Compile and Minify for Production
+## Kontribusi
 
-```sh
-npm run build
-```
+Jika Anda ingin berkontribusi, silakan buat pull request atau buka issue. Semua kontribusi dipersilakan.
+
+1. Silakan ganti username dan nama-proyek dengan informasi yang sesuai dengan proyek Anda, serta sesuaikan port xxxx dengan port yang digunakan oleh proyek Anda.
